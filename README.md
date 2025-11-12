@@ -24,12 +24,21 @@ The module uses arrays to store data and does not require a database.
 ## How to call functions, parameters required
 
 1. addAttraction(name, location)
+
 Purpose: Adds a new attraction to the system.
+
 How to call:
+
 trip.addAttraction("Sentosa Island", "Singapore");
+
+
 Parameters:
+
 name (string) – the name of the attraction
+
 location (string) – the city or country
+
+Returns: Confirmation message that the attraction was added.
 
 2. viewAllAttractions()
 Purpose: Returns a list of all attractions.
